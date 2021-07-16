@@ -1,0 +1,10 @@
+.country-details img {
+  height: 150px;
+}
+.country-details {
+  border: 2px solid purple;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
