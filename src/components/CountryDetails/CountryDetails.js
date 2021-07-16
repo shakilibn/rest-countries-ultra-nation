@@ -11,7 +11,7 @@ const CountryDetails = () => {
     fetch(`https://restcountries.eu/rest/v2/name/${countryName}`)
       .then((res) => res.json())
       .then((data) => setCountry(data[0]));
-  }, []);
+  }, [country]);
 
   return (
     <div className="country-details">
