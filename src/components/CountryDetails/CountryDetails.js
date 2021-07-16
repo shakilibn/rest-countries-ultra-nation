@@ -8,10 +8,11 @@ const CountryDetails = () => {
   const { flag, name, capital, population } = country;
 
   useEffect(() => {
-    fetch(`https://restcountries.eu/rest/v2/name/${countryName}`)
+    const url = `https://restcountries.eu/rest/v2/name/${countryName}`;
+    fetch(url)
       .then((res) => res.json())
       .then((data) => setCountry(data[0]));
-  }, [country]);
+  }, [countryName]);
 
   return (
     <div className="country-details">
