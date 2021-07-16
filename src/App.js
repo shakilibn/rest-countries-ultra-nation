@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route path="/home" component={Home} />
         <Route path="/country/:countryName" component={CountryDetails} />
       </Switch>
