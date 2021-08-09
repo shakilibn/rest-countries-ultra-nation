@@ -1,3 +1,3 @@
 # Rest Country - Ultra Nation
 
-[Live site](https://nostalgic-keller-fd75de.netlify.app/)
+[Live site](https://rest-country-ultra-nation.netlify.app/)
